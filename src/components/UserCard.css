@@ -1,0 +1,35 @@
+.user-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+}
+
+.user-card h2 {
+  color: #2563eb;
+  margin: 12px 0;
+}
+
+.user-card p {
+  color: #555;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.user-avatar {
+  width: 55px;
+  height: 55px;
+  background: #2563eb;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
